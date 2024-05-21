@@ -3,9 +3,9 @@ const moon = new Image();
 const earth = new Image();
 
 function init() {
-  sun.src = "/js/canvas_sun.png";
-  moon.src = "/js/canvas_moon.png";
-  earth.src = "/js/canvas_earth.png";
+  sun.src = "js/canvas_sun.png";
+  moon.src = "js/canvas_moon.png";
+  earth.src = "js/canvas_earth.png";
   window.requestAnimationFrame(draw);
 }
 
